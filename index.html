@@ -9,6 +9,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsividade.css">
+    <link rel="stylesheet" href="assets/css/background.css">
 
     <!--Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
@@ -30,7 +31,7 @@
     <div id="whatsappButton" class="fixed-button">
         <i class="bi bi-whatsapp"></i>
     </div>
-
+    <canvas id="canvas"></canvas>
     <!--Container Geral-->
     <div class="container">
 
@@ -71,12 +72,18 @@
                 <div class="conteudo-inicio" data-aos="fade-up" data-aos-duration="1000">
                     <div class="titulo-inicio">
                         <h1>GUILHERME MARTINS</h1>
-                        <h1 class="destaque-inicio">FullStack Developer</h1>
+                                               
                     </div>
+                    <h1 class="destaque-inicio" id="typing-text"></h1>
                     <div class="paragrafo-inicio" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <p>Analista de Sistemas, especialista em Integração & KeyUser Marketplace</p>
                     </div>
-                    <button class="cta" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    </div>
+                    
+                <div class="complemento-inicio">
+                    
+                    <p>Aprendizado contínuo</p>
+                    <button class="complemento-incio cta" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <!-- Inserir link para o whatsapp -->
                         <span>Fale Comigo</span>
 
@@ -85,9 +92,8 @@
                             <polyline points="8 1 12 5 8 9"></polyline>
                         </svg>
                     </button>
-                </div>
-                <div class="complemento-inicio">
-                    <p>Aprendizado contínuo</p>
+                
+
                     <img class="qr-code" src="assets/img/qr_code_rmdeveloper.png" alt="qr code para seu link bio">
                 </div>
             </div>
@@ -443,6 +449,8 @@
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/slideSobre.js"></script>
     <script src="assets/js/slidePortfolio.js"></script>
+    <script src="assets/js/particulas.js"></script>
+    <script src="assets/js/typing.js"></script>
 
 </body>
 
